@@ -22,12 +22,14 @@ li, ul {
     margin: 0 2.3vw;
     display: flex;
     flex-wrap: wrap;
+    background-image: linear-gradient(90deg, #4970a011, #253d5b);
         
 }
 header nav ul li:hover{
     cursor: pointer;
     color: #eedcd6;
-    border-bottom: 2px solid #eedcd6;
+    text-decoration: 3px underline;
+    
 }
 header {
     margin: 0;
@@ -106,6 +108,37 @@ section.welcome {
 }
 .indent {
     padding-left: 8px;
+}
+footer{
+    text-align: center;
+    padding: 30px 0;
+}
+footer a {
+    text-decoration: none;
+    color: #a88477;
+}
+footer a:hover {
+    color: #cfbab3;
+    text-decoration: underline;
+}
+footer p {
+    padding: 8px;
+}
+.social-icon {  
+    border: 2px solid #000000;
+    border-radius: 50%;
+    align-items: center;
+    text-align: center;
+    vertical-align: middle;
+    padding: 12px 6px 0 6px;
+    margin: 20px;
+}
+.social-icon:hover {
+    background-color: #cfbab3;
+}
+.pad {
+    padding-bottom: 20px;
+    font-weight: bold;
 }
 
 
