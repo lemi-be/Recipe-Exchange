@@ -7,10 +7,14 @@ body{
     padding: 0;
     background-color: #253d5b;
     color: #cfbab3;
-    font-weight: bold;
+    font-weight: normal;
     font-family: 'Poppins', sans-serif, Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     width: 100%;
     max-width: 1400px;
+}
+*{
+    margin: 0;
+    padding: 0;
 }
 li, ul {
     list-style: none;
@@ -39,5 +43,70 @@ header {
     width: 100%; 
     
 }
+main {
+    margin: 0;
+    padding: 50px 0 0 0;
+    
+}
+section.welcome {
+    top: 50px;
+    width: 100%;
+    height: 50vh;
+}
+.welcome {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;   
+}
+.major {
+    border-bottom: 5px solid;
+    font-size: 33px;
+}
+.line {
+    border-bottom: 1px solid #eedcd623;
+}
+.Guide {
+    background-color: rgba(202, 83, 83, 0.089);
+    width: 100%;
+    padding: 100px 0 0 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    font-size: 1rem;
+    
+}
+.Guide h1 {
+    padding-bottom: 70px;
+    margin: 0 auto;
+    font-size: 3.5vw;
+}
+.guide-box {
+    margin: 15px 4em 15px 0;
+    border: 3px solid #eedcd6;
+    height: fit-content;
+    padding: 20px;
+    width: 65vw;
+    align-self: flex-end;
+    max-width: 500px;
+    
+}
+
+.guide-box-left {
+    margin: 15px 0  15px 4em;
+    border: 3px solid #eedcd6;
+    padding: 20px;
+    height: fit-content;
+    width: 65vw;
+    max-width: 500px;
+    
+}
+.Guide h2 {
+    margin-bottom: 8px;
+}
+.indent {
+    padding-left: 8px;
+}
+
 
 
