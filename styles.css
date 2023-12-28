@@ -6,7 +6,7 @@ body{
     margin: 0;
     padding: 0;
     background-color: #253d5b;
-    color: #cfbab3;
+    color: #cfbab3 !important;
     font-weight: normal;
     font-family: 'Poppins', sans-serif, Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     width: 100%;
@@ -16,8 +16,12 @@ body{
     margin: 0;
     padding: 0;
 }
+a {
+    text-decoration: none;
+    color: #cfbab3;
+}
 li, ul {
-    list-style: none;
+    list-style: none ;
     padding: 0;
     margin: 0 2.3vw;
     display: flex;
